@@ -4,8 +4,8 @@ export const GlobalContext = createContext({});
 
 export const GlobalProvider = ({children}) => {
   const [navState, setNavState] = useState({
-    nav: "dashboard",
-    page: null,
+    nav: 'dashboard',
+    page: 'main',
   });
 
   return (
